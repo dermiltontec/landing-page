@@ -4,21 +4,31 @@ export const data = [
 		description:
 			'Exemplo 1',
 		image: './assets/clients.jpg',
+		link: "",
+	},
+	{
+		title: 'Depoimento ',
+		description: 'Exemplo 4',
+		image: './assets/teamwork.jpg',
+		link: "",
 	},
 	{
 		title: 'Depoimento 2',
 		description: 'Excemplo 2',
 		image: './assets/dermiton.png',
+		link: "",
 	},
 	{
 		title: 'Depoimento 3',
 		description: 'Exemplo 3',
 		image: './assets/teamwork.jpg',
+		link: "",
 	},
 	{
 		title: 'Depoimento 4',
 		description: 'Exemplo 4',
 		image: './assets/teamwork.jpg',
+		link: "",
 	},
 ];
 

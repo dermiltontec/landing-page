@@ -44,7 +44,7 @@ function Pricing() {
 											</PricingCardFeature>
 										))}
 									</PricingCardFeatures>
-									<Button>Começar agora!</Button>
+									<Button onClick={() => alert("Redirecionar para wats")}>Começar agora!</Button>
 								</PricingCardInfo>
 							</PricingCard>
 						))}
