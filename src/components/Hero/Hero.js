@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Container, MainHeading } from '../../globalStyles';
+import { Button, Container } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
 import { TypeAnimation } from "react-type-animation";
 
