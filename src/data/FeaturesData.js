@@ -16,7 +16,7 @@ export const featuresData = [
 		name: 'E-Books',
 		description:
 			`Tenha acesso a conteúdos e E-Books exclusivos
-			- Mentoria Zero Enxaqueca`,
+			-Mentoria Zero Enxaqueca`,
 		icon: iconStyle(BiBook),
 		imgClass: 'six',
 	},
