@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Container, MainHeading } from '../../globalStyles';
+import { Button, Container } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
 	const scrollTo = (id) => {
@@ -15,15 +15,18 @@ const Hero = () => {
 		<HeroSection>
 			<HeroVideo src="./assets/clients.jpg" autoPlay muted />
 			<Container>
-				<MainHeading>
-							Mentoria: 10 passo para uma agenda lotada</MainHeading>
+			<TypeAnimation
+						sequence={[`Mentoria: 10 passo para uma agenda lotada`, 1300]}
+						wrapper={"h1"}
+						className="hero_message"
+					/>
 				<HeroText>
 					Estrategias para todos os profisionais de saúde
 				</HeroText>
 				<ButtonWrapper>
-					<Link to="signup">
-						<Button>Começar agora!</Button>
-					</Link>
+						<Button
+							onClick={() => alert("Redireciona para o wats")}
+						>Começar agora!</Button>
 					<HeroButton onClick={() => scrollTo("leia-mais-3")} >Leia mais!</HeroButton>
 				</ButtonWrapper>
 			</Container>

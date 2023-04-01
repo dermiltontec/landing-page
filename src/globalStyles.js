@@ -19,14 +19,16 @@ export const Container = styled.div`
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
 	}
-`;
-export const MainHeading = styled.h1`
-	font-size: clamp(2.3rem, 6vw, 4.5rem);
-	margin-bottom: 2rem;
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
-	width: 100%;
-	letter-spacing: 4px;
-	text-align: center;
+
+	h1 {
+		font-size: clamp(2.3rem, 6vw, 4.5rem);
+		margin-bottom: 2rem;
+		color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+		width: 100%;
+		letter-spacing: 4px;
+		text-align: center;
+		height: 12rem;
+	}
 `;
 
 export const Heading = styled.h2`
