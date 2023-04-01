@@ -23,7 +23,7 @@ const Carousel = () => {
 		margin="auto" maxWidth="1280px" padding="50px 70px" inverse>
 			<Row justify="space-between" margin="1rem" wrap="wrap">
 				<Heading width="auto" inverse>
-					Veja também
+					Depoimentos
 				</Heading>
 				<ButtonContainer>
 					<IconContext.Provider value={{ size: '3rem', color: '#1d609c' }}>
@@ -43,7 +43,7 @@ const Carousel = () => {
 						<TextWrapper size="0.9rem" margin="0.7rem" color="#4f4f4f">
 							{el.description}
 						</TextWrapper>
-						<CardButton>Learn More</CardButton>
+						<CardButton>Saiba mais</CardButton>
 					</ImageWrapper>
 				))}
 			</ReviewSlider>
